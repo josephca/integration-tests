@@ -118,13 +118,13 @@ test-coverage:
 cross:
 	./scripts/cross-compile.sh $(CROSS_BUILD_FLAGS)
 
-.PHONY: generate-cli-structure
-generate-cli-structure:
-	go run cmd/cli-doc/cli-doc.go structure
+#.PHONY: generate-cli-structure
+#generate-cli-structure:
+#	go run cmd/cli-doc/cli-doc.go structure
 
-.PHONY: generate-cli-reference
-generate-cli-reference:
-	go run cmd/cli-doc/cli-doc.go reference > docs/cli-reference.adoc
+#.PHONY: generate-cli-reference
+#generate-cli-reference:
+#	go run cmd/cli-doc/cli-doc.go reference > docs/cli-reference.adoc
 
 .PHONY: configure-installer-tests-cluster
 configure-installer-tests-cluster:
