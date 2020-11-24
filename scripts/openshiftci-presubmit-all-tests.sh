@@ -40,8 +40,8 @@ elif  [ "${ARCH}" == "ppc64le" ]; then
     echo "No integration tests for ${ARCH}"
 else
     # Integration tests
-    # make test-integration-devfile
-    echo "Run devfile integration test"
+    echo "Run devfile integration tests"
+    make test-integration-devfile
 fi
 
 odo logout
