@@ -91,4 +91,4 @@ Tests in this repository are based on [ODC integration tests](https://github.com
 1. click `create-from-devfile.feature` to run test
    ![alt text](./docs/images/cypress_console.png "Cypress test")
    
-For more detail, see https://github.com/openshift/console#integration-tests for more detail on how to run devfile test with ODC. 
+For more detail, see https://github.com/openshift/console#integration-tests. 
